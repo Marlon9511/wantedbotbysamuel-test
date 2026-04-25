@@ -1,6 +1,7 @@
 console.log("Script gestartet");
 
 
+import fs from 'fs';
 import sharp from "sharp";
 import path from "path";
 import { exec } from "child_process";
